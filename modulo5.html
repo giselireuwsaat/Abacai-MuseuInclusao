@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" #ge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Abaçai - Museu da Inclusão apresenta: 'Pessoas com Deficiência: Lutas, Direitos e Conquistas'">
+    <title>Pessoas com deficiência: lutas, direitos e conquistas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+
+    <header class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <button class="btn-close-menu"><img src="img/bt_fechar_menu.png" id="bt_fechar_menu"></button>
+                    <a href="index.html"><img src="./img/logo_museu.png" id="logo_museu" alt="Fechar menu"></a>
+                    <div class="texto-nav">
+                        <nav>
+                            <p><a class="hoversobre" href="sobre.html">SOBRE O PROJETO</a></p>
+                            <p>MÓDULOS</p>
+                            <ul class="menu-header">
+                                <li><a class="text-red" href="modulo1.html"> 1. DIREITOS PARA QUEM?</a></li>
+                                <li><a class="text-green" href="modulo2.html"> 2. DIREITOS E SUAS TRAJETÓRIAS</a></li>
+                                <li><a class="text-yellow" href="modulo3.html"> 3. DIREITO A TER DIREITOS</a></li>
+                                <li><a class="text-blue" href="modulo4.html"> 4. DIREITOS À MEMÓRIA</a></li>
+                                <li><a class="text-pink" href="modulo5.html"> 5. O FUTURO DOS DIREITOS</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div id="carouselModulo5" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-indicators">
+            <div class="carousel-control-mobile">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselModulo5"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <span class="bt-ant-mob">ANTERIOR</span><span id="msgdns">1/7</span><span
+                    class="bt-prox-mob">PRÓXIMO</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselModulo5"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselModulo5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <div class="indices">
+                <div class="previous"><span id="msg"></span></div>
+                <button type="button" data-bs-target="#carouselModulo5" id="valor-car" data-bs-slide-to="0"
+                    data-numeroslide="1/6" data-title2="MOVIMENTO DE PESSOAS COM DEFICIÊNCIA" data-title=""
+                    class="active" aria-current="true" aria-label="ABERTURA: O FUTURO DOS DIREITOS"></button>
+                <button type="button" data-bs-target="#carouselModulo5" id="valor-car" data-bs-slide-to="1"
+                    data-numeroslide="2/6" data-title2="MOVIMENTO SOCIAIS DE PESSOAS COM DEFICIÊNCIA"
+                    data-title="ABERTURA: O FUTURO DOS DIREITOS"
+                    aria-label="MOVIMENTO DE PESSOAS COM DEFICIÊNCIA"></button>
+                <button type="button" data-bs-target="#carouselModulo5" id="valor-car" data-bs-slide-to="2"
+                    data-numeroslide="3/6" data-title2="MOVIMENTO SOCIAIS DE PESSOAS COM DEFICIÊNCIA"
+                    data-title="MOVIMENTO DE PESSOAS COM DEFICIÊNCIA"
+                    aria-label="MOVIMENTO SOCIAIS DE PESSOAS COM DEFICIÊNCIA"></button>
+                <button type="button" data-bs-target="#carouselModulo5" id="valor-car" data-bs-slide-to="3"
+                    data-numeroslide="4/6" data-title2="O FUTURO DOS DIREITOS"
+                    data-title="MOVIMENTO SOCIAIS DE PESSOAS COM DEFICIÊNCIA"
+                    aria-label="TITULO DO SEGUNDO TEXTO"></button>
+                <button type="button" data-bs-target="#carouselModulo5" id="valor-car" data-bs-slide-to="4"
+                    data-numeroslide="5/6" data-title2="VISITE OUTROS MÓDULOS"
+                    data-title="MOVIMENTO SOCIAIS DE PESSOAS COM DEFICIÊNCIA" aria-label="COLETA"></button>
+                <!-- <button type="button" data-bs-target="#carouselModulo5" id="valor-car" data-bs-slide-to="5" data-numeroslide="6/7" data-title2="VISITE OUTROS MÓDULOS" data-title="COLETA" aria-label="CAPACITISMO"></button> -->
+                <button type="button" data-bs-target="#carouselModulo5" id="valor-car" data-bs-slide-to="5"
+                    data-numeroslide="6/6" data-title2="" data-title="O FUTURO DOS DIREITOS"
+                    aria-label="VISITE OUTROS MÓDULOS"></button>
+                <div class="next"><span id="msg1">TÍTULO DE ABERTURA</span> </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselModulo5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <section class="modulo5-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button title="Abrir menu de navegação" class="btn-toggle-menu">
+                                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                                </button>
+                                <a href="index.html" title="Voltar para página inicial">
+                                    <img src="img/logo_museu.svg" alt="Museu da Inclusão" class="logo">
+                                </a>
+
+                                <div class="col-12 col-sm-6 tituloprimeiroslide">
+                                    <p><a href="index.html">Home ></a></p>
+                                    <h1>O <b>F</b>U<b>TU</b>RO <br> DO<b>S</b> <b>DI</b>R<b>EI</b>T<b>OS</b></h1>
+                                    <p>MÓDULO 5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="modulo5-2">
+                    <div class="container">
+                        <div class="row headerintmobile">
+                            <div class="col">
+                                <a href="index.html" title="Voltar para página inicial">
+                                    <img src="img/logo_museu.svg" alt="Museu da Inclusão" class="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                                </button>
+                                <div>
+                                    <h2 class="titulo-traco-rosa">MOVIMENTO DE PESSOAS COM DEFICIÊNCIA</h2>
+                                </div>
+                                <div> <img src="img/MovimentosSociaisdasPessoascomDeficiencia.gif" class="gif"
+                                        alt="GIF animado com imagens de bandeiras de movimentos sociais que se alteram na seguinte sequência: Bandeira do Movimento Feminista. Consiste em um fundo roxo, no centro, em branco, um círculo apoiado na cruz representando o espelho de Afrodite. Dentro dele, um punho; Bandeira do World Wide Fund for Nature. Consiste em um fundo branco, no centro, em preto, o desenho de um uso panda, embaixo escrito WWF; Bandeira do Movimento Transexual. Consiste em cinco faixas horizontais, duas em azul claro, duas em rosa e uma em branco no centro; Bandeira do Movimento dos Trabalhadores Sem-Teto. Consiste em um fundo vermelho, as letras MTST dentro de um círculo branco. A letra M em forma triangular representa a moradia; Bandeira do Movimento Assexual. Consiste em quatro faixas horizontais em preto, cinza, branco e roxo; Bandeira do Movimento LGBT. Consiste em seis faixas horizontais nas cores vermelho, laranja, amarelo, verde, azul e violeta; Bandeira do Movimento SOS Amazônia. Consiste em um logotipo com o desenho de um círculo semiaberto verde, ao redor de uma semente marrom com uma folha saindo dela, abaixo a tipografia SOS Amazônia em verde; Bandeira da União Nacional dos Estudantes. Consiste em um desenho da sigla UNE em branco, dentro da silhueta do mapa do Brasil em azul, dentro de um círculo branco, sobre um fundo azul; Bandeira da Articulação dos Povos Indígenas do Brasil. Consiste em um fundo branco, no centro, o mapa do Brasil em verde, dentro de um círculo vermelho com textura de desenhos indígenas. Ao redor do círculo, escrito: APIB - Articulação dos Povos Indígenas do Brasil. Sobre o círculo, na parte inferior do desenho, duas flechas cruzadas; Bandeira do Movimento pansexual. Consiste em três faixas horizontais nas cores rosa, amarelo e azul; Bandeira do Movimento Intersexual. Consiste em um fundo amarelo com um círculo roxo no centro; Bandeira do Movimento Lésbico. Consiste em um fundo roxo com triângulo preto invertido e uma lábris branca no centro; Bandeira do Movimento Queer. Consiste em três faixas horizontais nas cores lavanda, branco e verde; Bandeira do Movimento Negro Unificado. Consiste em um fundo branco, no centro, dentro de um círculo, a sigla MNU sobre mãos para cima segurando uma lança, abaixo, escrito: Segure e Lance. Ao redor do círculo, escrito: Movimento Negro Unificado – Brasil; Bandeira do Movimento Bissexual. Consiste em 3 faixas horizontais nas cores rosa, roxo e azul. A faixa roxa é no meio e é mais fina; Bandeira da Central Única das Favela (CUFA) com as letras destacadas na cor preta e um pássaro sobre a letra A; Bandeira do Movimento Não Binário. Consiste em quatro faixas horizontais nas cores amarelo, branco, roxo e preto. ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="modulo5-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                                </button>
+                                <div>
+                                    <h2 class="titulo-traco-rosa">MOVIMENTO SOCIAIS DE PESSOAS COM DEFICIÊNCIA</h2>
+                                </div>
+                                <div class="libras"><iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/Yk9KXfIRQKk" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1235171896&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/modulo-3-e-5-finalizado-mp3cutnet-2"
+                                            title="Módulo 5 - Texto 1" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">Módulo 5 - Texto 1</a></div>
+                                </div>
+                                <div class="texto-m1">
+                                    <p>Os movimentos sociais das pessoas com deficiência, em especial a partir dos anos
+                                        1970
+                                        e 1980, pautam uma série de discussões sobre a desumanização das pessoas com
+                                        deficiência, a garantia de seus direitos e a certeza de que suas narrativas
+                                        merecem
+                                        e devem ser reconhecidas.</p>
+                                    <p>Esse embate no campo sociopolítico, estimulado no Brasil pela reabertura política
+                                        e
+                                        pelo processo de redemocratização, possibilitou a criação de diversos mecanismos
+                                        legais que visam a garantia dos direitos da pessoa com deficiência – atualmente
+                                        o
+                                        Brasil é o país com uma das mais abrangentes legislações destinadas à garantia
+                                        de
+                                        direitos das pessoas com deficiência.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linksApoio">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-10">
+                                    <h3>Links de apoio</h3>
+                                    <ul>
+                                        <li><a
+                                                href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm">LBI
+                                                – Lei Brasileira de Inclusão</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="carousel-item">
+                <section class="modulo5-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                                </button>
+                                <div>
+                                    <h2 class="titulo-traco-rosa">MOVIMENTO SOCIAIS DE PESSOAS COM DEFICIÊNCIA</h2>
+                                </div>
+                                <div class="libras"><iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/F0pO1ztisn8" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1235171914&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/modulo-5-texto-2"
+                                            title="Módulo 5 - Texto 2" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">Módulo 5 - Texto 2</a></div>
+                                </div>
+                                <div class="texto-m1">
+                                    <p>No final dos anos 1980, se estabeleceram legislações federais que previram
+                                        políticas
+                                        nacionais de atenção às pessoas com deficiência. Em 1986, foi criada a
+                                        Coordenadoria
+                                        Nacional para Integração da Pessoa Portadora de Deficiência (CORDE), seguida, em
+                                        1989, da Política Nacional para a Integração da Pessoa Portadora de Deficiência.
+                                        Contudo, essa Política Nacional só foi instituída em 1993 e regulamentada em
+                                        1999.
+                                        Também, em 1999 se instituiu, internamente à CORDE, o primeiro conselho
+                                        deliberativo
+                                        voltado para os direitos da pessoa com deficiência em âmbito nacional. Foi nesse
+                                        momento que a CORDE se desvinculou do gabinete da Presidência da República e se
+                                        instaurou o Conselho Nacional dos Direitos da Pessoa Portadora de Deficiência –
+                                        CONADE. A primeira pessoa com deficiência a assumir o cargo de Coordenadora da
+                                        CORDE
+                                        foi a ativista Izabel Maria Madeira de Loureiro Maior, em 2002. Em 2003, foi
+                                        feita
+                                        pela primeira vez eleição para composição do CONADE, tendo como presidente
+                                        eleito o
+                                        ativista da União Brasileira de Cegos, Adilson Ventura.</p>
+                                    <p>No começo dos anos 2000, se estabeleceram debates no âmbito internacional que
+                                        levaram
+                                        à Constituição da atual Convenção Internacional dos Direitos das Pessoas com
+                                        Deficiência. No final de 2006, a Assembleia Geral das Nações Unidas aprovou o
+                                        texto
+                                        da Convenção. Esse documento e seu Protocolo Facultativo foram assinados pelo
+                                        Brasil
+                                        em 2007, ratificados pelo Congresso Nacional em 2008 e promulgados em 2009
+                                        através
+                                        do Decreto Presidencial 6949. Cabe destacar que essa Convenção está agregada à
+                                        legislação brasileira com status de emenda constitucional. Com essas entradas
+                                        legislativas em território nacional, a CORDE foi elevada ao status de Secretaria
+                                        Nacional e se transformou na Secretaria Nacional de Promoção dos Direitos da
+                                        Pessoa
+                                        com Deficiência (SNPD) e o CONADE atualizou o seu nome para Conselho Nacional
+                                        dos
+                                        Direitos da Pessoa com Deficiência.</p>
+                                    <p>Também, a partir dessas mudanças provocadas com a ratificação da Convenção
+                                        Internacional dos Direitos da Pessoa com Deficiência, se remodelou o Estatuto
+                                        das
+                                        Pessoas com Deficiência que se estabeleceu no Brasil no ano 2000. Assim, em
+                                        2015,
+                                        foi aprovada a lei 13.146 que deu a base para a promulgação, em 2016, da Lei
+                                        Brasileira de Inclusão (LBI).</p>
+                                    <p>Uma das mais destacadas modulações que esta lei trouxe para o âmbito nacional foi
+                                        a
+                                        modificação do conceito jurídico de deficiência. Na esteira da Convenção
+                                        Internacional, pessoas com deficiência não são mais consideradas como tal a
+                                        partir
+                                        de impedimentos exclusivamente corporais, mas, também, de impedimentos e
+                                        restrições
+                                        à participação correlatas a determinadas barreiras sociais e políticas.</p>
+                                    <p>Essas barreiras são consideradas incapacitantes. Barreiras incapacitantes são,
+                                        principalmente, aquelas que limitam e impedem a participação social dos
+                                        indivíduos e
+                                        o pleno exercício de seus direitos. De acordo com a Convenção Internacional dos
+                                        Direitos da Pessoa com Deficiência, barreiras incapacitantes são relativas às
+                                        dimensões urbanísticas, arquitetônicas, nos transportes, nas comunicações e no
+                                        acesso à informação, atitudinais e tecnológicas.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+
+
+            <div class="carousel-item">
+                <section class="modulo5-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                                </button>
+                                <div>
+                                    <h2 class="titulo-traco-rosa">O FUTURO DOS DIREITOS</h2>
+                                </div>
+                                <div class="libras"><iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/F0pO1ztisn8" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1235171899&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/modulo-5-texto-3"
+                                            title="Módulo 5 - Texto 3" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">Módulo 5 - Texto 3</a></div>
+                                </div>
+                                <div class="texto-m1">
+                                    <p>A construção desse raciocínio nos leva a algumas indagações: o processo
+                                        empreendido
+                                        para e pelas pessoas com deficiência ao longo das últimas décadas nos tornou uma
+                                        sociedade de fato mais inclusiva? Se não, quais são as barreiras que ainda nos
+                                        impedem de alcançar este ideal? As pessoas com deficiência sabem dos direitos
+                                        que
+                                        possuem e conhecem os meios para garanti-los?</p>
+                                    <p>Mesmo contando com todas as leis, uma significativa parcela da população com
+                                        deficiência ainda permanece ausente dos espaços públicos de participação social
+                                        e
+                                        política, dos discursos veiculados nas mídias (os quais muitas vezes
+                                        ridicularizam
+                                        ou representam as pessoas com deficiência através de imagens caricatas).</p>
+                                    <p>O reconhecimento legal de que as pessoas com deficiência são indivíduos diversos,
+                                        com
+                                        direitos civis, assim como as demais pessoas, foi um grande e essencial
+                                        reconhecimento. Contudo, esse processo falha ao não cumprir com o propósito do
+                                        processo de inclusão, reproduzindo barreiras físicas, comunicacionais,
+                                        atitudinais e
+                                        programáticas.</p>
+                                    <p>Frente ao contexto brasileiro de desigualdades, diversos fatores como classe,
+                                        gênero,
+                                        raça e sexualidade se sobrepõem, influenciando o acesso às informações
+                                        disponíveis
+                                        para as pessoas, tenham elas deficiência ou não. Reconhecer as barreiras é
+                                        imprescindível para que o acesso à informação, base para que todos conheçam seus
+                                        direitos, incentivado e garantido.</p>
+                                    <p>Além disso, o processo de inclusão não pode ser empreendido de maneira pontual
+                                        sem
+                                        levar-se em consideração os mecanismos - sociais e atitudinais - que levam à
+                                        exclusão. A incompreensão da complexidade frente às práticas de exclusão e a
+                                        não-representatividade de pessoas com deficiência em espaços decisórios
+                                        contribui
+                                        para a manutenção de estruturas opressoras.</p>
+                                    <p>Considerando-se as reivindicações travadas e os direitos conquistados para a
+                                        diminuição das barreiras de nosso mundo, ainda hoje são necessárias ações e
+                                        reivindicações coletivas para o cumprimento das leis que garantam o exercício
+                                        dos
+                                        direitos conquistados com o intuito de reconhecer as diferentes vozes das
+                                        pessoas
+                                        com deficiência.</p>
+                                    <p>A concretização de uma sociedade mais inclusiva e igualitária reside na
+                                        conscientização de que coexistem diversos modos de ser e estar no mundo, é
+                                        necessário que se reconheça a diversidade de corpos, línguas e identidades.
+                                        Ainda,
+                                        que ao reconhecer esta dimensão diversa sejamos capazes de construir espaços de
+                                        convivência que acolham a todos, sem barreiras.</p>
+                                    <p>Compreender a origem da exclusão é essencial para que as barreiras que nos
+                                        separam
+                                        sejam dissolvidas a partir de nossas práticas e responsabilidades enquanto seres
+                                        que
+                                        compõem a sociedade. A deficiência é, em si, apenas uma dentre tantas
+                                        características que definem ser pessoa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- <div class="carousel-item">
+            <section class="modulo1-3">
+                <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                </button>
+                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/N1fXONRmy9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </div>
+        <div class="carousel-item">
+            <section class="modulo1-8">
+                <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                </button>
+                <iframe width="100%" height="90%" src="https://www.youtube.com/embed/NBIEm4GpTAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </div> -->
+            <div class="carousel-item">
+                <section class="modulos">
+                    <div class="container-fluid">
+                        <button title="Abrir menu de navegação" class="btn-toggle-menu" id="botaomenu45120">
+                            <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                        </button>
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <h2 class="titulo-traco-rosa">VISITE OUTROS MÓDULOS</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo1">
+                                <a href="modulo1.html">
+                                    <h3><b>D</b>I<b>R</b>E<b>I</b>T<b>O</b>S <b>P</b>A<b>R</b>A <b>QUE</b>M?</h3>
+                                    <p>MÓDULO 1 </p>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo2">
+                                <a href="modulo2.html">
+                                    <h3><b>D</b>IR<b>E</b>ITO</b><b>S</b> E S<b>UA</b>S
+                                        <b>T</b>RA<b>J</b>E<b>T</b>Ó<b>R</b>IA<b>S</b>
+                                    </h3>
+                                    <p>MÓDULO 2</p>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo3">
+                                <a href="modulo3.html">
+                                    <h3><b>D</b>I<b>RE</b>I<b>T</b>O A <b>TE</b>R <b>DI</b>REI<b>TO</b>S</h3>
+                                    <p>MÓDULO 3 </p>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo4">
+                                <a href="modulo4.html">
+                                    <h3>D<b>I</b>RE<b>IT</b>O<b>S</b> À MEM<b>Ó</b>R<b>IA</b></h3>
+                                    <p>MÓDULO 4</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <ul class="menu-footer">
+                                    <li><a href="sobre.html">SOBRE</a></li>
+                                    <li><a href="modulo1.html">MÓDULO#1</a></li>
+                                    <li><a href="modulo2.html">MÓDULO#2</a></li>
+                                    <li><a href="modulo3.html">MÓDULO#3</a></li>
+                                    <li><a href="modulo4.html">MÓDULO#4</a></li>
+                                    <li><a href="modulo5.html">MÓDULO#5</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <p>Copyright 2022. All Right Reserved</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="img/regua_logos_branco.png">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/main.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" #ge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Abaçai - Museu da Inclusão apresenta: 'Pessoas com Deficiência: Lutas, Direitos e Conquistas'">
+    <title>Pessoas com deficiência: lutas, direitos e conquistas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+
+    <header class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <button class="btn-close-menu"><img src="img/bt_fechar_menu.png" id="bt_fechar_menu"></button>
+                    <a href="index.html"><img src="./img/logo_museu.png" id="logo_museu" alt="Fechar menu"></a>
+                    <div class="texto-nav">
+                        <nav>
+                            <p><a class="hoversobre" href="sobre.html">SOBRE O PROJETO</a></p>
+                            <p>MÓDULOS</p>
+                            <ul class="menu-header">
+                                <li><a class="text-red" href="modulo1.html"> 1. DIREITOS PARA QUEM?</a></li>
+                                <li><a class="text-green" href="modulo2.html"> 2. DIREITOS E SUAS TRAJETÓRIAS</a></li>
+                                <li><a class="text-yellow" href="modulo3.html"> 3. DIREITO A TER DIREITOS</a></li>
+                                <li><a class="text-blue" href="modulo4.html"> 4. DIREITOS À MEMÓRIA</a></li>
+                                <li><a class="text-pink" href="modulo5.html"> 5. O FUTURO DOS DIREITOS</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div id="carouselModulo4" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-indicators">
+            <div class="carousel-control-mobile">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselModulo4"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <span class="bt-ant-mob">ANTERIOR</span><span id="msgdns">1/6</span><span
+                    class="bt-prox-mob">PRÓXIMO</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselModulo4"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselModulo4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <div class="indices">
+                <div class="previous"><span id="msg"></span></div>
+                <button type="button" data-bs-target="#carouselModulo4" id="valor-car" data-bs-slide-to="0"
+                    data-numeroslide=" 1/6" data-title2="MEMÓRIA E CIDADANIA" data-title="" class="active"
+                    aria-current="true" aria-label="DIREITOS À MEMÓRIA"></button>
+                <button type="button" data-bs-target="#carouselModulo4" id="valor-car" data-bs-slide-to="1"
+                    data-numeroslide=" 2/6" data-title2="PROJETO MEMÓRIAS" data-title="DIREITOS À MEMÓRIA"
+                    aria-label="MEMÓRIA E CIDADANIA"></button>
+                <button type="button" data-bs-target="#carouselModulo4" id="valor-car" data-bs-slide-to="2"
+                    data-numeroslide=" 3/6" data-title2="PARLATINO" data-title="MEMÓRIA E CIDADANIA"
+                    aria-label="PROJETO MEMÓRIAS"></button>
+                <button type="button" data-bs-target="#carouselModulo4" id="valor-car" data-bs-slide-to="3"
+                    data-numeroslide=" 4/6" data-title2="DO MEMORIAL AO MUSEU DA INCLUSÃO" data-title="PROJETO MEMÓRIAS"
+                    aria-label="PARLATINO"></button>
+                <button type="button" data-bs-target="#carouselModulo4" id="valor-car" data-bs-slide-to="4"
+                    data-numeroslide=" 5/6" data-title2="VISITE OUTROS MÓDULOS" data-title="PARLATINO"
+                    aria-label="DO MEMORIAL AO MUSEU DA INCLUSÃO"></button>
+                <button type="button" data-bs-target="#carouselModulo4" id="valor-car" data-bs-slide-to="5"
+                    data-numeroslide=" 6/6" data-title2="" data-title="DO MEMORIAL AO MUSEU DA INCLUSÃO"
+                    aria-label="VISITE OUTROS MÓDULOS"></button>
+                <div class="next"><span id="msg1">MEMÓRIA E CIDADANIA</span> </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselModulo4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <section class="modulo4-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button title="Abrir menu de navegação" class="btn-toggle-menu">
+                                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                                </button>
+                                <a href="index.html" title="Voltar para página inicial">
+                                    <img src="img/logo_museu.svg" alt="Museu da Inclusão" class="logo">
+                                </a>
+                                <div class="col-6 tituloprimeiroslide">
+                                    <p><a href="index.html">Home ></a></p>
+                                    <h1>D<b>I</b>RE<b>IT</b>O<b>S</b> À MEM<b>Ó</b>R<b>IA</b></h1>
+                                    <p>MÓDULO 4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="modulo4-3">
+                    <div class="container">
+                        <div class="row">
+                            <div>
+                                <h2 class="titulo-traco-azul text-center">MEMÓRIA E CIDADANIA</h2>
+                            </div>
+                            <div class="col">
+                                <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                                    <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                                </button>
+                                <div class="libras"><iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/LMrkArRsjzA" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1233931852&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/finalizado-modulo-4-fabricio-mp3cutnet"
+                                            title="Módulo 4 - Texto 1" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">Módulo 4 - Texto 1</a></div>
+                                </div>
+
+                                <div class="texto-m4">
+                                    <p>Direitos culturais são entendidos na Constituição Federal Brasileira como a
+                                        garantia
+                                        do direito autoral, o direito à liberdade de expressão, o direito à preservação
+                                        do
+                                        patrimônio histórico e cultural, o direito à diversidade, o direito à identidade
+                                        cultural e o direito de acesso à cultura. </p>
+                                    <p>Já a Declaração Universal dos Direitos Humanos estabelece que a todo ser humano
+                                        deve-se garantir o exercício de seus direitos culturais, entendidos como
+                                        indispensáveis à dignidade e ao livre desenvolvimento de sua personalidade.
+                                        Dessa
+                                        forma, podemos afirmar que o direito à memória e ao patrimônio cultural é
+                                        imprescindível para o exercício da cidadania.</p>
+                                    <p>No entanto, a legislação que trata especificamente dos direitos das pessoas com
+                                        deficiência não aborda o direito à preservação do patrimônio e das memórias
+                                        dessa
+                                        população. A lei Nº 13.146, promulgada em 6 de julho de 2015, conhecida como Lei
+                                        Brasileira de Inclusão, apenas cita o direito de acesso ao patrimônio cultural,
+                                        mas
+                                        não se posiciona sobre o protagonismo das pessoas com deficiência com relação à
+                                        preservação e valorização de seu patrimônio e suas memórias.</p>
+                                    <p>Conhecer a história, por meio dos elementos que compõem a memória coletiva e
+                                        patrimônio, contribui para que possamos nos reconhecer enquanto sujeitos
+                                        políticos,
+                                        atuantes na construção da sociedade atual; sujeitos culturais, dotados de
+                                        práticas
+                                        culturais específicas; e sujeitos sociais e históricos, inseridos em
+                                        determinados
+                                        contextos.</p>
+                                    <p>Nesse sentido, o Museu da Inclusão desenvolve políticas e ações de preservação,
+                                        valorização e comunicação da memória e do patrimônio cultural relativo aos
+                                        movimentos sociais das pessoas com deficiência, além de fomentar e produzir
+                                        conhecimento no campo dos estudos da deficiência. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="modulo4-4">
+                    <div class="container-fluid">
+                        <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                            <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                        </button>
+                        <h2 class="titulo-traco-azul">PROJETO MEMÓRIAS</h2>
+                        <div class="libras"><iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/L7x4CaDPfFQ" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1233932722&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                            <div
+                                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                    target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA INCLUSÃO</a>
+                                · <a href="https://soundcloud.com/user-427724057/modulo-4-texto2"
+                                    title="Módulo 4 - Texto 2" target="_blank"
+                                    style="color: #cccccc; text-decoration: none;">Módulo 4 - Texto 2</a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="texto-m4">
+                                    <p>Por meio do Projeto Memórias, o Museu da Inclusão registra em vídeos os
+                                        depoimentos
+                                        de diversas pessoas que atuaram e ainda atuam nos movimentos sociais das pessoas
+                                        com
+                                        deficiência. Essa valorização é importante para a difusão das memórias pessoais,
+                                        que
+                                        se entrecruzam com memórias coletivas, pois garante sua preservação para as
+                                        futuras
+                                        gerações e abre espaço para que essas narrativas silenciadas se tornem
+                                        conhecidas.
+                                    </p>
+                                    <p>Para preservar e comunicar essas memórias, o Museu pesquisa a relação entre
+                                        memória e
+                                        território. Os “lugares de memória” são construções dotadas de forte caráter de
+                                        rememoração e de celebração, tais como um edifício, uma praça, um monumento, uma
+                                        receita ou uma fotografia. O que une estas criações diz respeito à sua
+                                        valorização
+                                        enquanto referência para a história e memória de um grupo, uma sociedade, uma
+                                        cidade
+                                        ou um país. Neste módulo, escolhemos contar um pouco da história de alguns
+                                        lugares
+                                        de memória vinculados à história do movimento social das pessoas com deficiência
+                                        em
+                                        São Paulo.</p>
+                                    <p>Esses lugares nos ajudam a lembrar e conhecer a história brasileira da educação
+                                        de
+                                        pessoas com deficiência, da institucionalização de corpos e mentes considerados
+                                        ‘anormais’ e de momentos dos movimentos sociais das pessoas com deficiência.</p>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-5 col-xs-12 p-5"><img src="img/img_mod4_4.png" class="img-responsive"></div> -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="modulo4-5">
+                    <div class="container">
+                        <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                            <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                        </button>
+                        <div class="row">
+                            <div class="col-9">
+                                <h2 class="titulo-traco-azul">PARLATINO</h2>
+                                <div class="libras"><iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/XiRGkl4Rgxs" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234136428&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/fabricio-none-mp3cutnet"
+                                            title="Módulo 4 - Texto 3 - Parlatino" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">Módulo 4 - Texto 3 -
+                                            Parlatino</a></div>
+                                </div>
+                                <div>
+                                    <div class="texto-m4">
+                                        <p>O edifício que abriga o Museu da Inclusão constitui um lugar de memória por
+                                            várias razões. Primeiramente, por estar localizado no complexo do Memorial
+                                            da
+                                            América Latina, tombado pelo Conselho de Defesa do Patrimônio Histórico,
+                                            Arqueológico, Artístico e Turístico, órgão do Estado de São Paulo
+                                            (CONDEPHAAT),
+                                            e pelo Conselho Municipal de Preservação do Patrimônio Histórico, Cultural e
+                                            Ambiental da Cidade de São Paulo (CONPRESP). Outro motivo que define este
+                                            espaço
+                                            como um lugar de memória refere-se ao fato de que dentro do edifício está
+                                            situada a primeira instituição museal que atua na preservação, valorização,
+                                            salvaguarda, pesquisa e comunicação do Patrimônio das Pessoas com
+                                            Deficiência.
+                                        </p>
+                                        <p>Segundo o CONDEPHAAT, o Memorial da América Latina representa “um marco não
+                                            só
+                                            arquitetônico, mas sociopolítico da mais alta significação, pela sua vocação
+                                            de
+                                            projetar a integração dos povos latino-americanos, cujas esperanças e
+                                            aspirações
+                                            abriga na sede do Parlamento Latino-Americano” (Resolução SC 75/97, de 11 de
+                                            dezembro de 1997, publicado no DOE 17/12/97, p. 26).</p>
+                                        <p>O complexo do Memorial da América Latina, concebido por Darcy Ribeiro e
+                                            projetado
+                                            por Oscar Niemeyer, é um monumento dedicado à integração política, cultural,
+                                            econômica e social da América Latina e abrange, além do Parlatino, o Salão
+                                            de
+                                            Atos, a Biblioteca Latino-Americana, a Galeria Marta Traba, o Pavilhão da
+                                            Criatividade, o Anexo dos Congressistas e o Auditório Simón Bolívar.</p>
+                                        <p>O edifício do Parlatino abriga desde sua criação, em 2008, a Secretaria de
+                                            Estado
+                                            dos Direitos da Pessoa com Deficiência de São Paulo (SEDPcD), a primeira
+                                            Secretaria Estadual do Brasil voltada à defesa de direitos das pessoas com
+                                            deficiência. Também, no edifício Parlatino desde 2009, está o Museu da
+                                            Inclusão,
+                                            antigo Memorial da Inclusão (2009-2020), instituição museal que identifica
+                                            os
+                                            valores da musealidade existentes nas ações e produções dos movimentos
+                                            sociais
+                                            das pessoas com deficiência e a partir disso musealiza os indicadores de
+                                            memória
+                                            que relacionam e promovem pautas inclusivas, , o respeito à diversidade e a
+                                            garantia dos direitos humanos à sociedade, em especial, às pessoas com
+                                            deficiência. Os resultados dessa musealização possibilitaram a ratificação
+                                            da
+                                            identidade social e cultural desse grupo.</p>
+                                        <div><img src="img/MODULO4/Modulo4-5-1.jpg" class="img-responsive"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p>Autor Desconhecido</p>
+                                    <p>[Edifício do Parlamento Latino-Americano (atual sede da Secretaria de Estado dos
+                                        Direitos da Pessoa com Deficiência e do Museu da Inclusão) em obras].</p>
+                                    <p>Fotografia (cópia digital)</p>
+                                    <p>Acervo da Secretaria de Estado dos Direitos da Pessoa com Deficiência (SEDPcD).
+                                    </p>
+                                </div>
+                                <div class="audio">
+                                    <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586299&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/ad-modulo4-memorial-da-america-latina-completo-com-parlatino-obras-6"
+                                            title="AD. MÓDULO 4 - Memorial Da América Latina - Completo Com Parlatino OBRAS 6"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4
+                                            - Memorial Da América Latina - Completo Com Parlatino OBRAS 6</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <div>
+                                    <div><img src="img/MODULO4/Modulo4-5-2.jpg" class="img-responsive"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p>Autor Desconhecido</p>
+                                    <p>[Portão de entrada e fachada da Secretaria de Estado dos Direitos da Pessoa com
+                                        Deficiência]</p>
+                                    <p>2009-2021</p>
+                                    <p>Fotografia</p>
+                                    <p> Acervo da Secretaria de Estado dos Direitos da Pessoa com Deficiência (SEDPcD).
+                                    </p>
+                                </div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586239&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/museu-da-inclusao"
+                                            title="AD. MÓDULO 4 - Museu Da Inclusão" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4 - Museu Da
+                                            Inclusão</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <p>A Secretaria de Estado dos Direitos da Pessoa com Deficiência de São Paulo tem por
+                                    objetivo garantir as condições do exercício da cidadania plena para as pessoas com
+                                    deficiência, possibilitando o acesso à educação, à saúde, à assistência social, ao
+                                    trabalho, à acessibilidade e a todos os bens e serviços da Sociedade. A criação da
+                                    SEDPcD contribuiu com o desenvolvimento de outras secretarias similares em diversos
+                                    Estados brasileiros.</p>
+                                <div><img src="img/MODULO4/Modulo4-5-3.jpg" class="img-responsive"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p>Autor Desconhecido</p>
+                                    <p>Vista aérea do Memorial da América Latina, antes da construção do edifício do
+                                        Parlamento Latino-Americano.</p>
+                                    <p>1989 – 1991.</p>
+                                    <p>Fotografia (cópia digital)</p>
+                                    <p>Acervo da Secretaria de Estado dos Direitos da Pessoa com Deficiência (SEDPcD)
+                                    </p>
+                                </div>
+                                <div class="audio">
+                                    <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586077&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/ad-modulo-4-vista-aerea-depois-da-construcao-do-memorial-e-antes-do-parlatino"
+                                            title="AD. MÓDULO 4 - Vista Aérea Depois Da Construção Do Memorial E Antes Do Parlatino"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4
+                                            - Vista Aérea Depois Da Construção Do Memorial E Antes Do Parlatino</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-9">
+                                <p>Do ponto de vista arquitetônico, o Memorial da América Latina expressa importantes
+                                    características da produção do arquiteto Oscar Niemeyer.
+                                    Nesta vista aérea, podemos notar a presença marcante de edificações de concreto
+                                    armado e
+                                    uma morfologia urbana espaçada entre os edifícios. </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="modulo4-6">
+                    <div class="container">
+                        <button title="Abrir menu de navegação" class="btn-toggle-menu" id=botaomenu45120>
+                            <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                        </button>
+                        <div class="row">
+                            <div class="col-9">
+                                <h2 class="titulo-traco-azul">DO MEMORIAL AO MUSEU DA INCLUSÃO</h2>
+                                <div class="libras">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z41BgEJGkhQ"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="audio">
+                                    <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1233935515&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/modulo-4-texto4"
+                                            title="Módulo 4 - Texto 4" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">Módulo 4 - Texto 4</a>
+                                    </div>
+                                </div>
+                                <div class="texto-m4">
+                                    <p> Em três de dezembro de 2009, a Secretaria de Estado dos Direitos da Pessoa com
+                                        Deficiência de São Paulo inaugurou a exposição nomeada por “Os caminhos da
+                                        pessoa
+                                        com deficiência”, os resultados dessa exposição fizeram surgir o Memorial da
+                                        Inclusão, hoje chamado de Museu da Inclusão. Mais adiante, serão apresentados os
+                                        desdobramentos e consequência das mudanças das denominações.</p>
+                                    <p>A exposição foi organizada por vários ativistas dos movimentos sociais das
+                                        pessoas
+                                        com deficiência, cujo objetivo era apresentar questões relacionadas ao campo da
+                                        pessoa com deficiência e as articulações das militâncias. Para a seleção das
+                                        temáticas e dos acervos a serem comunicados na exposição, os organizadores
+                                        enviaram
+                                        convites aos ativistas para que colaborassem com o planejamento e concepção
+                                        dessa
+                                        atividade. A partir dessa parceria os conteúdos escolhidos foram selecionados
+                                        dos
+                                        acervos que foram digitalizados e reproduzidos para compor a exposição que
+                                        ocupou o
+                                        térreo da SEDPcD.</p>
+                                    <p>Desta forma, a exposição organizada pelos ativistas apresenta o processo
+                                        histórico do
+                                        que foi o Movimento Social das Pessoas com Deficiência, durante as décadas de
+                                        1970 e
+                                        1980.</p>
+                                    <div>
+                                        <div><img src="img/MODULO4/Modulo4-6-1.jpg" class="img-responsive"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p>Autor desconhecido</p>
+                                    <p>[Painel “Do assistencialismo à participação social” da Exposição Caminhos da
+                                        Pessoa
+                                        com Deficiência]</p>
+                                    <p>2009-2020</p>
+                                    <p>Fotografia digital</p>
+                                    <p>Acervo Museu da Inclusão</p>
+                                </div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586209&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/painel-exposicao-ii"
+                                            title="AD. MÓDULO 4 - Painel Exposição II" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4 - Painel
+                                            Exposição II</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <div><img src="img/MODULO4/Modulo4-6-2.jpg" class="img-responsive"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p>Autor desconhecido</p>
+                                    <p>[Painel “Maria de Lourdes Guarda e Cândido Pinto de Melo” da Exposição Caminhos
+                                        da
+                                        Pessoa com Deficiência]</p>
+                                    <p>2009-2020</p>
+                                    <p>Fotografia digital</p>
+                                    <p>Acervo Museu da Inclusão</p>
+                                </div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586182&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/painel-exposicao"
+                                            title="AD. MÓDULO 4 - Painel Exposição" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4 - Painel
+                                            Exposição</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <div><img src="img/MODULO4/Modulo4-6-3.jpg" class="img-responsive"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p>Autor desconhecido</p>
+                                    <p>[Painel “Do Asylamento à autonomia” da Exposição Caminhos da Pessoa com
+                                        Deficiência]
+                                    </p>
+                                    <p>2009-2020</p>
+                                    <p>Fotografia digital</p>
+                                    <p>Acervo Museu da Inclusão</p>
+                                </div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586140&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/painel-expositivo"
+                                            title="AD. MÓDULO 4 - Painel Expositivo" target="_blank"
+                                            style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4 - Painel
+                                            Expositivo</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <p>Além de promover exposições na capital e no interior do estado de São Paulo, o
+                                    Memorial
+                                    da Inclusão se tornou responsável pela Virada Inclusiva, um evento que reúne
+                                    atividades
+                                    culturais, esportivas e de lazer no qual a pessoa com deficiência protagoniza as
+                                    ações
+                                    desenvolvidas pelo evento. Outra ação que valoriza os integrantes e ativistas dos
+                                    movimentos sociais das pessoas com deficiência é o Projeto Memórias.</p>
+                                <p>O Projeto Memórias surge no dia de inauguração do Memorial da Inclusão. O objetivo
+                                    das
+                                    atividades desse projeto era realizar a coleta de testemunhos de ativistas que foram
+                                    protagonistas de reivindicações em prol dos direitos da pessoa com deficiência.
+                                    Sendo
+                                    assim, as gravações geram uma coleção de história oral para compor o Centro de
+                                    Documentação e Pesquisa do Memorial da Inclusão. Nesse contexto, o contato com os
+                                    ativistas entrevistados deu início às primeiras doações das coleções documentais que
+                                    viriam a ser preservadas no então Memorial da Inclusão. Com o passar do tempo, o
+                                    reconhecimento gerado pelas atividades desenvolvidas pelo Memorial da Inclusão,
+                                    outros
+                                    ativistas procuraram a instituição para doarem seus acervos, resultando assim em
+                                    cinco
+                                    coleções documentais, como as de Lia Crespo; Leandra Certeza; Ana Rita de Paula;
+                                    Maria
+                                    Amélia Vampré e Vanilton Senatore.</p>
+                                <div><img src="img/MODULO4/Modulo4-6-4.jpg" class="img-responsive"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p> Autor Desconhecido</p>
+                                    <p>Inauguração do Memorial da Inclusão</p>
+                                    <p>03/12/2009</p>
+                                    <p>Fotografia digital colorida.</p>
+                                    <p>Acervo Museu da Inclusão</p>
+                                    <p> Da esquerda para a direita: Duas pessoas cujo nomes não foram identificados,
+                                        Fulano,
+                                        Ciclano, Floriano Pesaro, Linamara Rizzo Battistella, Elza Ambrósio, Iara
+                                        Canodote,
+                                        Jefferson Duarte, Crismere Gadelha e Beltrano (intérprete de libras). Juntos,
+                                        membros da SEDPCD, inaugurando o Memorial da Inclusão, atual Museu da Inclusão.
+                                    </p>
+                                </div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586419&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/inauguracao-do-memorial-da-inclusao2"
+                                            title="AD. MÓDULO 4 - Inauguração Do Memorial Da Inclusão(2)"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4
+                                            - Inauguração Do Memorial Da Inclusão(2)</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <div><img src="img/MODULO4/Modulo4-6-5.jpg" class="img-responsive"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legenda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p>Autor Desconhecido
+                                        <p>Inauguração Memorial da Inclusão
+                                            <p>03/12/2009
+                                                <p>Fotografia digital colorida
+                                                    <p>Acervo Museu da Inclusão
+                                </div>
+                                <div class="audio"><iframe width="100%" height="20" scrolling="no" frameborder="no"
+                                        allow="autoplay"
+                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1234586338&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+                                    <div
+                                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                                        <a href="https://soundcloud.com/user-427724057" title="MUSEU DA INCLUSÃO"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">MUSEU DA
+                                            INCLUSÃO</a> · <a
+                                            href="https://soundcloud.com/user-427724057/inauguracao-do-memorial-da-inclusao"
+                                            title="AD. MÓDULO 4 - Inauguração Do Memorial Da Inclusão"
+                                            target="_blank" style="color: #cccccc; text-decoration: none;">AD. MÓDULO 4
+                                            - Inauguração Do Memorial Da Inclusão</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+
+                                <p>Desde a sua criação, o Memorial tem recebido o apoio de importantes agentes dos
+                                    movimentos sociais das pessoas com deficiência. Além disso, começa a tratar sobre
+                                    questões contemporâneas ao campo da pessoa com deficiência. Por se autoidentificar
+                                    com a
+                                    responsabilidade de refletir sobre os direitos e reivindicações da pessoa com
+                                    deficiência, o Memorial compreende a necessidade de integrar a geração dos ativistas
+                                    da
+                                    década de 1970 e 1980 com as gerações atuais e futuras.</p>
+
+                                <p>Dessa maneira, compreendeu-se que o Memorial da Inclusão não chegava a integrar
+                                    pautas
+                                    mais contemporâneas relativas às questões da inclusão e da deficiência devido à sua
+                                    atuação focada em uma contextualização histórica. A partir daí nota-se a necessidade
+                                    de
+                                    alteração de sua conceitualização de Memorial da Inclusão para o Museu Memorial da
+                                    Inclusão: Os Caminhos da Pessoa com Deficiência, de acordo com o Decreto de nº
+                                    63.892,
+                                    de 05 de dezembro de 2018. Apesar de o decreto promover a institucionalização da
+                                    gestão
+                                    museológica, ações de cunho museológico já eram desenvolvidas. Mais uma nova
+                                    alteração
+                                    de denominação acontece no dia 15 de outubro de 2021, por meio do Decreto Estadual
+                                    no.
+                                    66.133/21, alterando o nome de Memorial da Inclusão para Museu da Inclusão.</p>
+
+                                <p>O Museu da Inclusão é resultado do desejo de preservação da memória dos movimentos
+                                    sociais de pessoas com deficiência. Além disso, preserva e recebe acervos, de
+                                    caráter
+                                    museológico, sobre esse grupo social. As suas atividades atuam em duas instâncias: a
+                                    primeira em ser um espaço que atua na preservação, na salvaguarda,na pesquisa e na
+                                    comunicação do patrimônio social, político e cultural da pessoa com deficiência. A
+                                    segunda: contribui com a reflexão, o desenvolvimento e a aplicação de processos de
+                                    gestão e técnicas museológicas acessíveis.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="modulos">
+                    <div class="container-fluid">
+                        <button title="Abrir menu de navegação" class="btn-toggle-menu" id="botaomenu45120">
+                            <img src="img/bt_menu.png" id="bt_abrir_menu" alt="Abrir menu">
+                        </button>
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <h2 class="titulo-traco-azul">VISITE OUTROS MÓDULOS</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo1">
+                                <a href="modulo1.html">
+                                    <h3><b>D</b>I<b>R</b>E<b>I</b>T<b>O</b>S <br> <b>P</b>A<b>R</b>A <b>QUE</b>M?</h3>
+                                    <p>MÓDULO 1</p>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo2">
+                                <a href="modulo2.html">
+                                    <h3><b>D</b>IR<b>E</b>ITO</b><b>S</b> E S<b>UA</b>S
+                                        <b>T</b>RA<b>J</b>E<b>T</b>Ó<b>R</b>IA<b>S</b>
+                                    </h3>
+                                    <p>MÓDULO 2</p>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo3">
+                                <a href="modulo3.html">
+                                    <h3><b>D</b>I<b>RE</b>I<b>T</b>O <br> A <b>TE</b>R <b>DI</b>REI<b>TO</b>S</h3>
+                                    <p>MÓDULO 3</p>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-md-6 col-sm-12 col-xs-6 box box-modulo5">
+                                <a href="modulo5.html">
+                                    <h3>O <b>F</b>U<b>TU</b>RO DO<b>S</b> <b>DI</b>R<b>EI</b>T<b>OS</b></h3>
+                                    <p>MÓDULO 5</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <ul class="menu-footer">
+                                    <li><a href="sobre.html">SOBRE</a></li>
+                                    <li><a href="modulo1.html">MÓDULO#1</a></li>
+                                    <li><a href="modulo2.html">MÓDULO#2</a></li>
+                                    <li><a href="modulo3.html">MÓDULO#3</a></li>
+                                    <li><a href="modulo4.html">MÓDULO#4</a></li>
+                                    <li><a href="modulo5.html">MÓDULO#5</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <p>Copyright 2022. All Right Reserved</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="img/regua_logos_branco.png">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/main.js'></script>
+</body>
+
+</html>
